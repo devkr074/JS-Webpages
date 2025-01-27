@@ -1,4 +1,4 @@
-const choices = ["Rock", "Paper", "Scissors"];
+const choices = ["rock", "paper", "scissors"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
@@ -14,14 +14,14 @@ function playGame(playerChoice) {
     }
     else {
         switch (playerChoice) {
-            case "Rock":
-                result = (computerChoice === "Scissors") ? "YOU WIN!" : "YOU LOSE!";
+            case "rock":
+                result = (computerChoice === "scissors") ? "YOU WIN!" : "YOU LOSE!";
                 break;
-            case "Paper":
-                result = (computerChoice === "Rock") ? "YOU WIN!" : "YOU LOSE!";
+            case "paper":
+                result = (computerChoice === "rock") ? "YOU WIN!" : "YOU LOSE!";
                 break;
-            case "Scissors":
-                result = (computerChoice === "Paper") ? "YOU WIN!" : "YOU LOSE!";
+            case "scissors":
+                result = (computerChoice === "paper") ? "YOU WIN!" : "YOU LOSE!";
                 break;
         }
     }
