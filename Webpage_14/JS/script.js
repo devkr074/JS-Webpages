@@ -1,0 +1,25 @@
+let userName = "Bro Code";
+let phoneNumber = "123-456-7890";
+console.log(userName.length);
+console.log(userName.charAt(0));
+console.log(userName.indexOf("o"));
+console.log(userName.lastIndexOf("o"));
+userName = userName.trim();
+console.log(userName);
+userName = userName.toUpperCase();
+console.log(userName);
+userName = userName.toLowerCase();
+console.log(userName);
+userName = userName.repeat(3);
+console.log(userName);
+let result = userName.startsWith(" ");
+console.log(result);
+result = userName.endsWith(" ");
+result = userName.includes(" ");
+console.log(result);
+phoneNumber = phoneNumber.replaceAll("-", "");
+console.log(phoneNumber);
+phoneNumber = phoneNumber.padStart(15, "0");
+console.log(phoneNumber);
+phoneNumber = phoneNumber.padEnd(15, "0");
+onsole.log(phoneNumber)
