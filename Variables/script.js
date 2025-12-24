@@ -1,5 +1,3 @@
-// Variables: A container that stores a value. Behaves as if it were the value it contains.
-
 let fullName = "Bro Code";
 let age = 25;
 let isStudent = false;
