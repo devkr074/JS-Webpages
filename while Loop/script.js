@@ -1,5 +1,3 @@
-// while loop: repeat some code WHILE some condition is true
-
 let loggedIn = false;
 let username;
 let password;
