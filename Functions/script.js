@@ -1,5 +1,3 @@
-// Function: A section of reusable code. Declare code once, use it whenever you want. Call the function to execute that code.
-
 function happyBirthday(username, age) {
     console.log(`Happy birthday to you!`);
     console.log(`Happy birthday to you!`);
