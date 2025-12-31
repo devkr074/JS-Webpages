@@ -1,10 +1,8 @@
-// Array: A variable like structure that can hold more than 1 value
-
 let fruits = ["apple", "orange", "banana", "coconut"];
-fruits.push("coconut");  // Adds an element
-fruits.pop();            // Removes last element
-fruits.unshift("mango"); // Adds element to beginning
-fruits.shift();          // Removes element from beginning
+fruits.push("coconut");
+fruits.pop();
+fruits.unshift("mango");
+fruits.shift();
 let numOfFruits = fruits.length;
 let index = fruits.indexOf("coconut");
 console.log(fruits);
