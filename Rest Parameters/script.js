@@ -1,9 +1,3 @@
-// Rest Parameters: (...rest) allow a function work with a variable number of arguments by bundling them into an array
-// Spread: Expands an array into separate elements
-// Rest: Bundles separate elements into an array
-
-// -------- EXAMPLE 1 --------
-
 function openFridge(...foods) {
     console.log(...foods);
 }
@@ -17,9 +11,6 @@ const food4 = "sushi";
 const food5 = "ramen";
 openFridge(food1, food2, food3, food4, food5);
 const foods = getFood(food1, food2, food3, food4, food5);
-
-// -------- EXAMPLE 2 --------
-
 function sum(...numbers) {
     let result = 0;
     for (let number of numbers) {
@@ -36,9 +27,6 @@ function getAverage(...numbers) {
 }
 const average = getAverage(75, 100, 85, 90, 50);
 console.log(average);
-
-// -------- EXAMPLE 3 --------
-
 function combineStrings(...strings) {
     return strings.join(" ");
 }
