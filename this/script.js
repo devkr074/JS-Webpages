@@ -1,5 +1,3 @@
-// this: Reference to the object where THIS is used (the object depends on the immediate context)
-
 const person1 = {
     name: "Spongebob",
     favFood: "hamburgers",
