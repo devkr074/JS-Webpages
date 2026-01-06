@@ -1,5 +1,3 @@
-// Constructor: Special method for defining the properties and methods of objects
-
 function Car(make, model, year, color) {
     this.make = make,
         this.model = model,
