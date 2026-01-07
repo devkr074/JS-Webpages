@@ -1,5 +1,3 @@
-// ---------- EXAMPLE 1 ----------
-
 class Rectangle {
     constructor(width, height) {
         this.width = width;
@@ -35,9 +33,6 @@ const rectangle = new Rectangle(2, 3);
 console.log(rectangle.width);
 console.log(rectangle.height);
 console.log(rectangle.area);
-
-// ---------- EXAMPLE 2 ----------
-
 class Person {
     constructor(firstName, lastName, age) {
         this.firstName = firstName;
