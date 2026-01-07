@@ -1,7 +1,3 @@
-// super: Keyword is used in classes to call the constructor or access the properties and methods of a parent (superclass)
-// this: This object
-// super: The parent
-
 class Animal {
     constructor(name, age) {
         this.name = name;
