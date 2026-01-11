@@ -1,5 +1,3 @@
-// .toLocaleString(): Returns a string with a language sensitive representation of a number .toLocaleString("locale", {options});
-
 let number = 123456.789;
 number = number.toLocaleString("en-US");
 number = number.toLocaleString("hi-IN");
