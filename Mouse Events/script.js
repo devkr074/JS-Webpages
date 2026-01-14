@@ -1,7 +1,3 @@
-// eventListener: Listen for specific events to create interactive web pages
-// events: Click, Mouseover, Mouseout
-// .addEventListener(event, callback);
-
 const myBox = document.getElementById("myBox");
 myBox.addEventListener("click", event => {
     event.target.style.backgroundColor = "tomato";
