@@ -1,7 +1,3 @@
-// eventListener: Listen for specific events to create interactive web pages
-// events: keydown, keyup
-// .addEventListener(event, callback);
-
 const myBox = document.getElementById("myBox");
 const moveAmount = 10;
 let x = 0;
